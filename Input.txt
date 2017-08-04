@@ -1,19 +1,75 @@
-Ghostly Prison
-Goblin Bombardment
-Baral, Chief of Compliance
-Rishkar, Peema Renegade
-Ajani Unyielding
-Ensnaring Bridge
-Akroma's Vengeance
-Open the Vaults
-Bedlam Reveler
-Garruk Wildspeaker
-Scapeshift
-Fireblast
-Kalitas, Traitor of Ghet
-Mayael the Anima
-Prized Amalgam
-Disallow
-Kolaghan, Storm's Fury
-Kaalia of the Vast
-Terminate
+Champion of the Parish (DDQ)
+Kytheon, Hero of Akros (ORI)
+Mother of Runes (EMA)
+Mardu Woe-Reaper (FRF)
+Soldier of the Pantheon (THS)
+Enlightened Tutor (EMA)
+Path to Exile (MMA)
+Swords to Plowshares (EMA)
+Accorder Paladin (MBS)
+Anafenza, Kin-Tree Spirit (DTK)
+Containment Priest (C14)
+Imposing Sovereign (M14)
+Knight of the White Orchid (ORI)
+Leonin Relic-Warder (MBS)
+Nyx-Fleece Ram (JOU)
+Precinct Captain (DDO)
+Seeker of the Way (CP_ORI)
+Selfless Spirit (EMN)
+Soulfire Grand Master (FRF)
+Spirit of the Labyrinth (BNG)
+Syndic of Tithes (GTC)
+Thalia, Guardian of Thraben (DKA)
+Wall of Omens (EMA)
+Balance (4E)
+Declaration in Stone (SOI)
+Gather the Townsfolk (DDQ)
+Archetype of Courage (BNG)
+Blade Splicer (NPH)
+Brimaz, King of Oreskos (BNG)
+Eidolon of Countless Battles (BNG)
+Eidolon of Rhetoric (JOU)
+Eldrazi Displacer (OGW)
+Fiend Hunter (ISD)
+Flickerwisp (MM3)
+Hushwing Gryff (M15)
+Mesa Enchantress (EMA)
+Mirran Crusader (MM2)
+Monastery Mentor (FRF)
+Recruiter of the Guard (CN2)
+Silverblade Paladin (AVR)
+Thalia, Heretic Cathar (EMN)
+Vryn Wingmare (ORI)
+Forsake the Worldly (AKH)
+Ghostly Prison (CN2)
+Lingering Souls (DKA)
+Oblivion Ring (ALA)
+Rally the Peasants (EMA)
+Spectral Procession (MM2)
+Academy Rector (CG)
+Angel of Condemnation (HOU)
+Gisela, the Broken Blade (EMN)
+Restoration Angel (AVR)
+Rhox Faithmender (M13)
+Ajani Goldmane (M10)
+Cast Out (AKH)
+Day of Judgment (ZEN)
+Faith's Fetters (EMA)
+Gideon, Ally of Zendikar (BFZ)
+Heliod, God of the Sun (THS)
+Parallax Wave (NE)
+Sram's Expertise (AER)
+Archangel Avacyn (SOI)
+Archangel of Thune (M14)
+Cloudgoat Ranger (MMA)
+Karmic Guide (EMA)
+Reveillark (MOR)
+Starfield of Nyx (ORI)
+Sigil of the Empty Throne (ORI)
+Captain of the Watch (DDO)
+Elspeth, Sun's Champion (DDO)
+Akroma's Vengeance (ONS)
+Open the Vaults (M10)
+Angel of Serenity (RTR)
+Rally the Ancestors (FRF)
+Secure the Wastes (DTK)
