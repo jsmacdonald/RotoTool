@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jason MacDonald">
+    
+    <title>MTG ROTO</title>
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/signup.css" rel="stylesheet">
+    
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="main">Home</a></li>
+            <li role="presentation"><a href="#">Sign In</a></li>
+            <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">MTG RotoTool</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h1>MTG Roto Draft Sign Up</h1>
+        <form class="form-signin">
+        <label for="inputName" class="sr-only">Name</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Name" required autofocus>
+        <label for="inputUserName" class="sr-only">User Name</label>
+        <input type="username" name="inputUserName" id="inputUserName" class="form-control" placeholder="User Name" required autofocus>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+         
+        <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Sign up</button>
+      </form>
+      </div>
+ 
+       
+ 
+      <footer class="footer">
+        <p>&copy; Alex Krawiec, Jason MacDonald, Jeff MacDonald 2017</p>
+      </footer>
+ 
+    </div>
+    <script src="../static/js/jquery-3.2.1.js"></script>
+    <script>
+    $(function() {
+      $('#btnSignUp').click(function() {
+   
+          $.ajax({
+              url: '/signUp',
+              data: $('form').serialize(),
+              type: 'POST',
+              success: function(response) {
+                  console.log(response);
+              },
+              error: function(error) {
+                  console.log(error);
+              }
+          });
+      });
+    });
+    </script>
+
+  </body>
+</html>
