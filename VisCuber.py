@@ -2,7 +2,7 @@
 
 # Create the html string that will show the card, sans the card's name.  This will be in 4 parts.
 String1 = '<li data-checked="true"><a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?name='
-String2 = '"><img src="http://gatherer.wizards.com/Handlers/Image.ashx?name='
+String2 = '"><img id="card" src="http://gatherer.wizards.com/Handlers/Image.ashx?name='
 String3 = '&amp;set='
 String4 = '&amp;type=card" alt="'
 StringEnd = '"></a></li>\n'

@@ -9,9 +9,10 @@
     <meta name="author" content="Jason MacDonald">
     
     <title>MTG ROTO</title>
- 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="..static/jumbotron-narrow.css" rel="stylesheet">
+    <!--IE10 viewport hack for Surface/desktop Windows 8 bug-->
+    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/jumbotron-narrow.css" rel="stylesheet">
  
  
 </head>
@@ -19,28 +20,36 @@
 <body>
  
     <div class="container">
-        <div class="header">
+        <div class="header clearfix">
+            
             <nav>
                 <ul class="nav nav-pills pull-right">
+                    
                     <li role="presentation" class="active"><a href="#">Home</a>
                     </li>
                     <li role="presentation"><a href="#">Sign In</a>
                     </li>
                     <li role="presentation"><a href="showSignUp">Sign Up</a>
                     </li>
+                    
                 </ul>
             </nav>
             <h3 class="text-muted">MTG RotoTool</h3>
+            
         </div>
  
         <div class="jumbotron">
             <h1>MTG Roto Draft App</h1>
-            <p class="lead"></p>
-            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Create User</a>
+            <p class="lead">
+                An App to simplify and streamline the online rotisserie drafting process for magic the gathering cube drafts.
+            </p>
+            <p>
+                <a class="btn btn-lg btn-success" href="showSignUp" role="button">Create User</a>
             </p>
         </div>
  
         <div class="row marketing">
+            
             <div class="col-lg-6">
                 <h4>We gonna Roto Draft</h4>
                 <p>Sign up, Sign In, Join Draft, Pick and See your Pool. App controls pick order, simplifies drafting.</p>
@@ -63,13 +72,15 @@
                 <h4>Drafting Statistics</h4>
                 <p>Each cube, and every card that is loaded into the system will track how often it is picked, the records of those that pick it, and at what point in the draft it goes.  You can also get User statistics on common color preferences, your pick order relative to average, and your </p>
             </div>
+            
         </div>
  
         <footer class="footer">
             <p>&copy; Alex Krawiec, Jason MacDonald, Jeff MacDonald 2017</p>
         </footer>
- 
+        
     </div>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
  
 </html>
